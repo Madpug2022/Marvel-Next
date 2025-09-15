@@ -1,0 +1,63 @@
+.char-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  &__container {
+    background-color: #000;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 98% 100%, 0 100%);
+  }
+
+  & .description {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+
+    @media screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+
+    &__img {
+      height: 320px;
+      & img {
+        width: 320px;
+        height: 100%;
+        object-fit: cover;
+      }
+      @media screen and (max-width: 550px) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    &__info {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      padding: 5px;
+
+      &__name {
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+          max-width: 70%;
+          font-size: 40px;
+          font-weight: 700;
+
+          @media screen and (max-width: 550px) {
+            font-size: 32px;
+          }
+        }
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}

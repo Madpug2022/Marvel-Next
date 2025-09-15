@@ -1,0 +1,25 @@
+.favorites {
+  height: 100%;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__icon {
+    color: red;
+    height: 25px;
+    width: 25px;
+  }
+
+  &__text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 0.5rem;
+  }
+}

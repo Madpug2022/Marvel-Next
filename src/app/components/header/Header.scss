@@ -1,0 +1,19 @@
+@use "../../styles/variables.scss" as v;
+
+.header {
+  height: 4.5rem;
+  background-color: v.$nav-background;
+  padding: 0.7rem 22px;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    height: 100%;
+    width: 120px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 0;
+  & .icon {
+    color: red;
+    height: 50px;
+    width: 50px;
+  }
+}

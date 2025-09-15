@@ -1,0 +1,21 @@
+.favorite-btn {
+  z-index: 3;
+  padding: 5px;
+  min-width: 30px;
+  max-width: 10%;
+
+  & .icon {
+    height: 100%;
+    width: 100%;
+  }
+
+  & .unfavorited {
+    color: #f1f1f1;
+  }
+
+  & .favorited {
+    color: red;
+    stroke: black;
+    stroke-width: 1px;
+  }
+}

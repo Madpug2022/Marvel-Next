@@ -1,0 +1,11 @@
+.characters-display {
+  padding: 0 22px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+}
