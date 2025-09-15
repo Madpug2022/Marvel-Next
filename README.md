@@ -1,5 +1,9 @@
 # Marvel Searcher
 
+## Deployment
+
+https://marvel-next-six.vercel.app/
+
 ## Requeriments
 
 - Node v22.6
